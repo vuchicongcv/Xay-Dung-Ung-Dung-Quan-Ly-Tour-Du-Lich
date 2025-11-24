@@ -1,5 +1,5 @@
  <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin" rel="nofollow">
-    🎓 Faculty of Information Technology (DaiNam University)
+    <h1>🎓 Faculty of Information Technology (DaiNam University)</h1>
     </a>
 </h2><a id="user-content----------faculty-of-information-technology-dainam-university----" class="anchor" aria-label="Permalink: 
     🎓 Faculty of Information Technology (DaiNam University)

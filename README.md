@@ -1,8 +1,4 @@
-<div align="center">
-
-# Faculty of Information Technology (DaiNam University)
-
-<br/>
+🎓 Faculty of Information Technology (DaiNam University)
 
 ### Open Source Software Development
 #### Đề tài: Quản Lý Tour Du Lịch

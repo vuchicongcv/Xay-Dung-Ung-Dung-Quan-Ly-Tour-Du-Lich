@@ -19,3 +19,81 @@
 <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin" rel="nofollow"><img src="https://camo.githubusercontent.com/c07ee33bda256ba8d9340ba5142d4c96fec447a8ca23b30051164bed5a813f7f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f466163756c74792532306f66253230496e666f726d6174696f6e253230546563686e6f6c6f67792d626c75653f7374796c653d666f722d7468652d6261646765" alt="Faculty of Information Technology" data-canonical-src="https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge" style="max-width: 100%;"></a>
 <a href="https://dainam.edu.vn" rel="nofollow"><img src="https://camo.githubusercontent.com/425e66ac586b899a84a39d3e2747d20d010f6ab30544fb541887bf9dddf5b714/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4461694e616d253230556e69766572736974792d6f72616e67653f7374796c653d666f722d7468652d6261646765" alt="DaiNam University" data-canonical-src="https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge" style="max-width: 100%;"></a></p>
 </div>
+🏕️ Website Đặt Tour Du Lịch 
+📖 1. Mô tả hệ thống
+
+Hệ thống cho phép người dùng tìm kiếm, xem và đặt tour du lịch online. Admin có trang quản trị để quản lý tour, lịch khởi hành, khách hàng, booking, blog, voucher và slider.
+
+Gồm 2 phần:
+
+User: xem tour → xem chi tiết → đặt tour → thanh toán → xem lịch sử booking → in PDF.
+
+Admin: quản lý tour, booking, khách hàng, voucher, slider, bài viết.
+
+🔧 2. Công nghệ sử dụng
+
+Backend: PHP thuần
+
+Frontend: HTML5, CSS3, Bootstrap, JS, jQuery
+
+Database: MySQL
+
+Tools: XAMPP, VSCode
+
+PDF: TCPDF / FPDF
+
+🖼️ 3. Giao diện (mô tả)
+
+Trang chủ: slider + tour nổi bật
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/be506899-b920-41b9-a6c1-15ab41c5b7ab" />
+
+Trang danh sách tour
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c8ddbb0-458d-43b0-99f4-79f15f61c6ef" />
+
+Trang chi tiết tour
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6e4e29e6-073d-41af-84f4-23eeb3aaf2b9" />
+
+Trang đặt tour + tính giá + voucher
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce0eccb1-c372-4b7c-b3c2-2cef7930c8a8" />
+
+Trang lịch sử booking
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bae3296f-6e56-4b33-b0c0-da993ae28cc6" />
+
+Trang admin: dashboard + các module quản lý
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7175dc45-2151-4c80-83f2-b34beb526ba6" />
+
+⚙️ 5. Cách cài đặt
+
+Cài XAMPP → bật Apache + MySQL
+
+Giải nén project vào:
+
+C:\xampp\htdocs\
+
+
+Tạo CSDL:
+
+CREATE DATABASE du_lich CHARACTER SET utf8mb4;
+
+
+Sửa cấu hình DB tại:
+
+/config/db.php
+
+
+Truy cập:
+
+User: http://localhost/tour-website/
+
+Admin: http://localhost/tour-website/admin/
+
+📁 6. Cấu trúc thư mục (tóm tắt)
+admin/        # Quản trị
+booking/      # Xử lý đặt tour
+config/       # Kết nối DB
+css/ js/ img/ # Tài nguyên
+includes/     # Header/footer
+index.php     # Trang chủ
+booking.php   # Đặt tour
+packages.php  # Tour
+login.php
